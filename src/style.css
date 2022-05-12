@@ -1,0 +1,16 @@
+
+main{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(52deg, #9f37c2, #e26821);
+  
+  background-size: 400% 400%;
+  animation: AnimationName 15s ease infinite;
+}
+
+@keyframes AnimationName {
+  0%{background-position:66% 0%}
+  50%{background-position:35% 100%}
+  100%{background-position:66% 0%}
+}
+

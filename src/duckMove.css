@@ -1,0 +1,171 @@
+:root{
+    --init-left : 0px;
+    --left-twenty : 20px;
+    --left-forty : 40px;
+    --left-sixty : 60px;
+    --left-eighty : 80px;
+    --left-one-hundred : 100px;
+    --init-top : 0px;
+    --top-twenty : 20px;
+    --top-forty : 40px;
+    --top-sixty : 60px;
+    --top-eighty : 80px;
+    --top-one-hundred : 100px;
+    --rotate-zero : 0deg;
+    --rotate-twenty : 20deg;
+    --rotate-forty : 40deg;
+    --rotate-sixty : 60deg;
+    --rotate-eighty : 80deg;
+    --rotate-one-hundred : 100deg;
+}
+
+@keyframes duckMove {
+    0%   {
+            left:var(--init-left); 
+            top:var(--init-top);
+            transform: rotate(var(--rotate-zero));
+        }
+    20%  {
+            left:var(--left-twenty);
+            top:var(--top-twenty);
+            transform: rotate(var(--rotate-twenty));
+        }
+    40%  {
+            left:var(--left-forty);
+            top:var(--top-forty);
+            transform: rotate(var(--rotate-forty));
+        }
+    60%  {
+            left:var(--left-sixty);
+            top:var(--top-sixty);
+            transform: rotate(var(--rotate-sixty));
+        }
+    80%  {
+            left:var(--left-eighty);
+            top:var(--top-eighty);
+            transform: rotate(var(--rotate-eighty));
+        }
+    100% {
+            left:var(--left-one-hundred);
+            top:var(--top-one-hundred);
+            transform: rotate(var(--rotate-one-hundred));
+        }
+  }
+  
+  .duck{
+    
+    animation-name: duckMove;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    font-size: 50px;
+    width: 20vw;
+    height: 20vh;
+    
+   
+  }
+  .duck.one{
+    --init-left : 10px;
+    --left-twenty : 60px;
+    --left-forty : 80px;
+    --left-sixty : 10px;
+    --left-eighty : 120px;
+    --left-one-hundred : 50px;
+    --init-top : -10px;
+    --top-twenty : -20px;
+    --top-forty : -40px;
+    --top-sixty : -60px;
+    --top-eighty : -80px;
+    --top-one-hundred : -100px;
+    --rotate-zero : 0deg;
+    --rotate-twenty : 20deg;
+    --rotate-forty : 0deg;
+    --rotate-sixty : 20deg;
+    --rotate-eighty : 30deg;
+    --rotate-one-hundred : 20deg;
+  }
+
+  .duck.two{
+    --init-left : 300px;
+    --left-twenty : 200px;
+    --left-forty : 100px;
+    --left-sixty : 150px;
+    --left-eighty : 250px;
+    --left-one-hundred : 275px;
+    --init-top : -100px;
+    --top-twenty : -200px;
+    --top-forty : -300px;
+    --top-sixty : -200px;
+    --top-eighty : -170px;
+    --top-one-hundred : -150px;
+    --rotate-zero : 75deg;
+    --rotate-twenty : 100deg;
+    --rotate-forty : 120deg;
+    --rotate-sixty : 200deg;
+    --rotate-eighty : 100deg;
+    --rotate-one-hundred : 90deg;
+  }
+
+  .duck.three{
+    --init-left : 70px;
+    --left-twenty : 77px;
+    --left-forty : 72px;
+    --left-sixty : 79px;
+    --left-eighty : 73px;
+    --left-one-hundred : 79px;
+    --init-top : 77px;
+    --top-twenty : 70px;
+    --top-forty : 78px;
+    --top-sixty : 72px;
+    --top-eighty : 75px;
+    --top-one-hundred : 70px;
+    --rotate-zero : 0deg;
+    --rotate-twenty : 60deg;
+    --rotate-forty : 120deg;
+    --rotate-sixty : 180deg;
+    --rotate-eighty : 270deg;
+    --rotate-one-hundred : 360deg;
+  }
+
+  .duck.four{
+    --init-left : 5px;
+    --left-twenty : 6px;
+    --left-forty : 4px;
+    --left-sixty : 3px;
+    --left-eighty : 2px;
+    --left-one-hundred : 5px;
+    --init-top : -1px;
+    --top-twenty : -2px;
+    --top-forty : -4px;
+    --top-sixty : -6px;
+    --top-eighty : -8px;
+    --top-one-hundred : -10px;
+    --rotate-zero : 0deg;
+    --rotate-twenty : 20deg;
+    --rotate-forty : 0deg;
+    --rotate-sixty : 20deg;
+    --rotate-eighty : 30deg;
+    --rotate-one-hundred : 20deg;
+  }
+
+  .duck.five{
+    --init-left : -10px;
+    --left-twenty : -60px;
+    --left-forty : -80px;
+    --left-sixty : -10px;
+    --left-eighty : -120px;
+    --left-one-hundred : -50x;
+    --init-top : 10px;
+    --top-twenty : 20px;
+    --top-forty : 40px;
+    --top-sixty : 60px;
+    --top-eighty : 80px;
+    --top-one-hundred : 100px;
+    --rotate-zero : 150deg;
+    --rotate-twenty : 205deg;
+    --rotate-forty : 124deg;
+    --rotate-sixty : 30deg;
+    --rotate-eighty : 80deg;
+    --rotate-one-hundred : 100deg;
+  }
